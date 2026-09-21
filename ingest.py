@@ -5,7 +5,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 
-TXT_PATH = "documents/handbook.txt"
+TXT_PATH = "documents/{file_names}"
 DB_PATH = "chroma_db"
 
 print("Loading document...")
